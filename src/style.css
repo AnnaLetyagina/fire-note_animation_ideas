@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-main: #1a1410;
+  --bg-panel: #241c16;
+  --bg-input: #12100e;
+  --accent: #ff6b1a;
+  --accent-hover: #ffb347;
+  --text-main: #f5e6d3;
+  --text-dim: #a39486;
+  --border: #3d2e24;
+  --danger: #e53935;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
